@@ -1,0 +1,20 @@
+node_modules/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Ambiente
+.env
+config/environments/.env.dev
+config/environments/.env.staging
+config/environments/.env.prod
+
+# Build
+dist/
+
+# Sistema
+.DS_Store
+*.log
